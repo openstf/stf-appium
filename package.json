@@ -1,0 +1,20 @@
+{
+  "name": "stf-appium",
+  "version": "0.1.0",
+  "description": "stf-appium",
+  "main": "cli/index.js",
+  "author": {
+    "name": "Benjamin Gericke"
+  },
+  "license": "Apache-2.0",
+  "bin": "./bin/stf-appium",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "commander": "^2.9.0",
+    "fs": "0.0.2",
+    "fs-extra": "^0.30.0",
+    "portastic": "1.0.1",
+    "swagger-client": "^2.1.18",
+    "forallasync": "1.0.2"
+  }
+}
