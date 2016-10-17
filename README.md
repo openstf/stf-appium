@@ -123,6 +123,6 @@ appiumPort        - the port of the Appium REST interface
 pathToApkFile     - the path to the .apk file of the application to test
 ```
 
-The newly created "device path" for the device to test is given as the current working directory for the child process. So if your test saves its output in `./`, you should find your test output there.
+The newly created "device path" (`<device_serialX>` from above) for the device to test is given as the current working directory for the child process. So if your test saves its output in `./`, you should find your test output there.
 
 Nevertheless, slight changes on the `appium.startAppiuClient()` function in `util/appium.js` should work for tests written in different languages as well.
