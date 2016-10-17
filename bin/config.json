@@ -1,0 +1,23 @@
+{
+  "appiumPath": "/path/to/appium.js",
+  "appiumAddress": "127.0.0.1",
+  "nodeJsPath": "node",
+  "javaPath": "java",
+  "adbPath": "adb",
+  "outputPath": "/path/to/output",
+  "ANDROID_HOME": "/path/to/android-sdk",
+  "appiumPorts": {
+    "rest": {
+      "min": 55000,
+      "max": 55999
+    },
+    "bootstrap": {
+      "min": 56000,
+      "max": 57000
+    }
+  },
+  "devicesList": [
+    "Foo",
+    "Bar"
+  ]
+}
