@@ -94,8 +94,8 @@ An explanation for the parameters is provided by the `--help` parameter of the c
   |     |    |-- log
   |     |    |   |-- appiumErr.log
   |     |    |   |-- appiumOut.log
-  |     |    |   |-- testNgErr.log
-  |     |    |   |-- testNgOut.log
+  |     |    |   |-- testErr.log
+  |     |    |   |-- testOut.log
   |     |    |
   |     |    |-- <files created by the test>
   |     |
